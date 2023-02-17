@@ -1,6 +1,4 @@
-.. class:: center
-
-    :NLP problem prompt engineering with chain-of-thougts
+# NLP problem prompt engineering with chain-of-thougts
 
 Abstract
 ========
