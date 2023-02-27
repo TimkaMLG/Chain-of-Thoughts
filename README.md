@@ -1,4 +1,4 @@
-Ревью литературы: https://docs.google.com/document/d/1LNh47_zyJ_B68mztQ7oIK3QrsUzjGO1lNtmeSeLOkLc/edit?usp=sharing
+[Ревью литературы](https://docs.google.com/document/d/1LNh47_zyJ_B68mztQ7oIK3QrsUzjGO1lNtmeSeLOkLc/edit?usp=sharing)
 
 NLP problem prompt engineering with chain-of-thoughts
 ========
