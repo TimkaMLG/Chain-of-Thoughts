@@ -6,16 +6,16 @@ NLP problem prompt engineering with chain-of-thoughts
 
 Сетап эксперимента
 ===========
-Модель: Bloom-176B
-Датасет: GSM8K
-Платформа для работы: Kaggle
+- Модель: [Bloom-176B](https://huggingface.co/bigscience/bloom)
+- Датасет: GSM8K
+- Платформа для работы: Kaggle
 
 Запуск эксперимента
 ===========
-Требуется установка библиотеки petals, это можно сделать командой !pip install -q petals datasets
-Также потребуются torch, transformers, tqdm.
+Требуется установка библиотеки `petals`, это можно сделать командой `!pip install -q petals`
+Также потребуются `torch`, `transformers`, `tqdm`. Для этого поможет команда `!pip install torch transformers tqdm`
 
-Весь код собран в юпитер ноутбуке main.ipynb
+Весь код собран в юпитер ноутбуке `main.ipynb` в папке `code`.
 
 Результаты
 =======
