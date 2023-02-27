@@ -6,9 +6,9 @@ NLP problem prompt engineering with chain-of-thoughts
 
 Сетап эксперимента
 ===========
-- Модель: [Bloom-176B](https://huggingface.co/bigscience/bloom)
-- Датасет: GSM8K
-- Платформа для работы: Kaggle
+- Модель: Bloom-176B (https://huggingface.co/bigscience/bloom)
+- Датасет: GSM8K (https://huggingface.co/datasets/gsm8k)
+- Платформа для работы: Kaggle (https://www.kaggle.com/)
 
 Запуск эксперимента
 ===========
