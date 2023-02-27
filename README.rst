@@ -1,6 +1,22 @@
-Literature review: https://docs.google.com/document/d/1LNh47_zyJ_B68mztQ7oIK3QrsUzjGO1lNtmeSeLOkLc/edit?usp=sharing
+Ревью литературы: https://docs.google.com/document/d/1LNh47_zyJ_B68mztQ7oIK3QrsUzjGO1lNtmeSeLOkLc/edit?usp=sharing
 
 NLP problem prompt engineering with chain-of-thoughts
 ========
+В исследовании рассматривается проблема решения арифметических задач при помощи языковых моделей. Предлагается метод chain-of-thoughts, который заключается в подаче промта-подсказки для модели, заставляющей модель проводить промежуточные размышления во время решения задачи. Также предлагается модификация метода self-consistency, предполагающий агрегацию нескольких различных решений задачи для повышения вероятности вывода правильного ответа.
 
-Purus sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum vitae sapien. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget egestas purus viverra accumsan in. Nam aliquam sem et tortor. Donec et odio pellentesque diam volutpat commodo. Odio pellentesque diam volutpat commodo sed egestas. Sit amet dictum sit amet justo. Pellentesque sit amet porttitor eget. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Quis varius quam quisque id diam vel quam elementum. Ornare lectus sit amet est placerat in. Vulputate dignissim suspendisse in est ante. Elit sed vulputate mi sit amet mauris. Egestas sed tempus urna et pharetra pharetra. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+Сетап эксперимента
+===========
+Модель: Bloom-176B
+Датасет: GSM8K
+Платформа для работы: Kaggle
+
+Запуск эксперимента
+===========
+Требуется установка библиотеки petals, это можно сделать командой !pip install -q petals datasets
+Также потребуются torch, transformers, tqdm.
+
+Весь код собран в юпитер ноутбуке main.ipynb
+
+Результаты
+=======
+К сожеланию, собрать качественные результаты в процессе работы не удалось в связи с высокой загруженностью серверов инференса модели, однако эксперименты будет возможно воспроизвести если развернуть модель на своих серверах.
